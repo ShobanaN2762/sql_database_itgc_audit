@@ -19,6 +19,8 @@ The project demonstrates technical audit testing using custom SQL queries to ide
 - **Framework Mapping:**
   - **ISO 27001:2022 Control A.8.2:** Privileged Access Rights & Least Privilege
   - **ISO 27001:2022 Control A.8.15:** Logging & Monitoring
+  - **ISO 27001:2022 Control A.8.3:** Segregation of Duties(SoD) and Information Access Restriction
+  - **ISO 27001:2022 Control A.5.17:** Authentication Information (Credential & Account Accountability)
   - **ITGC Access Management:** Segregation of Duties (SoD) & Account Accountability
 
 ---
