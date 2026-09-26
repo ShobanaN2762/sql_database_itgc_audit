@@ -26,10 +26,10 @@ The project demonstrates technical audit testing using custom SQL queries to ide
 ## 🔍 Key Findings Summary
 
 | Finding ID    | Control Gap                                                                             | Risk Level | Relevant Standard  | Key Recommendation                                                                            |
-| :------------ | :-------------------------------------------------------------------------------------- | :--------- | :----------------- | :-------------------------------------------------------------------------------------------- |
-| **FINDING 1** | Segregation of Duties (SoD) Breakdown (Developer dropped production table)              | **HIGH**   | ISO 27001 A.8.2    | Revoke developer DDL write permissions in production; enforce RBAC.                           |
-| **FINDING 2** | Unapproved Privilege Escalation (`GRANT ALL PRIVILEGES` executed without change ticket) | **HIGH**   | ITGC Access Policy | Implement automated SIEM alerts on privilege grants & quarterly recertification.              |
-| **FINDING 3** | Shared Admin Account & Off-Hours External Access (Login at 02:15 AM from public IP)     | **HIGH**   | ISO 27001 A.8.15   | Deprecate generic shared logins; enforce individual named accounts, MFA, & VPN/Bastion hosts. |
+| :------------ | :-------------------------------------------------------------------------------------- | :--------- | :-----------------  | :-------------------------------------------------------------------------------------------- |
+| **FINDING 1** | Segregation of Duties (SoD) Breakdown (Developer dropped production table)              | **HIGH**   | **ISO 27001 A.5.3 / A.8.2**<br>**ITGC Access Control**    | Revoke developer DDL write permissions in production; enforce RBAC.                           |
+| **FINDING 2** | Unapproved Privilege Escalation (`GRANT ALL PRIVILEGES` executed without change ticket) | **HIGH**   | **ISO 27001 A.8.2**<br>**ITGC Access Control** | Implement automated SIEM alerts on privilege grants & quarterly recertification.              |
+| **FINDING 3** | Shared Admin Account & Off-Hours External Access (Login at 02:15 AM from public IP)     | **HIGH**   | **ISO 27001 A.8.15 / A.5.17**<br>**ITGC Access & Operations**   | Deprecate generic shared logins; enforce individual named accounts, MFA, & VPN/Bastion hosts. |
 
 ---
 
