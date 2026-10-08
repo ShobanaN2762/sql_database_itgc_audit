@@ -6,7 +6,7 @@
 
 ## 📌 Executive Overview
 
-This repository contains an end-to-end technical **IT General Controls (ITGC)** audit project simulating a production database access log review for a fintech platform (_PaySecure Solutions_).
+This repository contains an end-to-end technical **IT General Controls (ITGC)** audit project simulating a production database access log review for a fintech platform (_VortexPe Solutions_).
 
 The project demonstrates technical audit testing using custom SQL queries to identify compliance exceptions, evaluate risks using the **CCCER Framework** (Condition, Criteria, Cause, Effect, Recommendation), and map findings to **ISO 27001:2022** controls and standard ITGC Access Management frameworks.
 
